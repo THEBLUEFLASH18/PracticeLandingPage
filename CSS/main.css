@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/revolt-164_6wVEHfI-unsplash.jpg');
+    background-size: cover;
+    width : 100%;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    height : 100vh;
+    z-index: -1;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+nav { 
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
